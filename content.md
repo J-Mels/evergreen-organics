@@ -1,6 +1,10 @@
 ///// CONTENT /////
 
-Company name: Evergreen Organics
+COMPANY NAME: Evergreen Organics
+
+HEADLINE: Better Taste. Better Nutrition, 100% chemical free.
+
+CALL TO ACTION: Get Started
 
 FEATURES
 

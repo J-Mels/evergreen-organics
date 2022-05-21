@@ -24,5 +24,6 @@ SECTIONS/COMPONENTS
 --Featured In
 --Features
 --Testimonials
+--For Business
 --CTA
 --Footer
