@@ -27,7 +27,13 @@ CUSTOMER TESTIMONIALS
 
 -Chisong: With the variety of produce options Evergreen Organics offers, I can bring the familiar tastes and smells of my hometown wherever I go.
 
--Alayna: Partnering with Evergreen Organics has seriously leveled up my business. Our customers love the quality of our dishes and it's all thanks to Evergreen!
+-Alayna: Partnering with Evergreen Organics has seriously leveled up my business. Our customers absolutely love the quality and nutritional value of our dishes.
+
+FOR BUSINESS
+
+- Give your customers the quality they deserve! Evergreen Organics partners with businesses large and small, from the mom and pop restaurant down the road to the downtown upscale café. Our dedicated service team will find a customized solution for you to reach your business goals.
+
+- (CTA) "Partner with us"
 
 CONTACT INFORMATION
 Address: 975 108th Street, Denver, CO 80014
