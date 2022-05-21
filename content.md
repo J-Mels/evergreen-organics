@@ -20,7 +20,7 @@ FEATURES
   ----- It is our mission to not only deliver excellence to our customers, but also to our planet. All of our produce is 100% Vegan and cruelty-free. Furthermore, we utilize 100% recycled materials in all of our packaging.
 
 - Freshly delivered
-  ----- When you order from us, the produce will be freshly picked from the farm then delivered to your home or business within 48 hours. No exceptions. Evergreen also makes your shopping experience easy with an option for recurring purchases, saving you time. Going on vacation? No problem! You can pause your recurring deliveries with ease.
+  ----- When you order from us, the produce will be freshly picked from the farm then delivered to your home or business within 48 hours. No exceptions. Evergreen also makes your shopping experience easy with an option for recurring purchases, saving you time. Going on vacation? No problem! You can pause your recurring deliveries with ease and resume them when you are ready.
 
 - Variety - imported vegetables
   ----- We grow a wide array of everyday products as well as exotic fruits, veggies, nuts, spices, and more. Cook native cuisine from any region in the world and make all your culinary dreams come true with Evergreen!
