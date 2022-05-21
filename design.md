@@ -17,3 +17,12 @@ FONT SYSTEM
 
 --Font Type(s)
 --- (something soft serif)
+
+SECTIONS/COMPONENTS
+--logo/navigation
+--Hero
+--Featured In
+--Features
+--Testimonials
+--CTA
+--Footer

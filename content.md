@@ -11,9 +11,17 @@ FEATURES
 - 100% Vegan and cruelty free
 - Variety - imported vegetables
 - State-of-the-art greenhouses across the U.S.
+- State-of-the-art hydroponics across US
 
-PRICING
+FEATURED IN:
+Prevention
+New York Times
+USA Today
+Forbes
 
 CUSTOMER TESTIMONIALS
 
 CONTACT INFORMATION
+Address: 975 108th Street, Denver, CO 80014
+Phone: 947-228-2894
+Email: office@evergreenorganics.com
