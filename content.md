@@ -3,6 +3,7 @@
 COMPANY NAME: Evergreen Organics
 
 HEADLINE: Better Taste. Unmatched Nutrition. 100% chemical free.
+---Subheadline: When it comes to organic ingredients, Evergreen stands out above the rest. We cultivate our produce for maximum nutritional value and superior taste without GMO and toxic pesticides. Ditch the supermarket and upgrade to Evergreen today!
 
 CALL TO ACTION: Get Started
 
@@ -13,7 +14,7 @@ FEATURES
   At Evergreen, we derive our pesticides from purely natural sources, not lab-created chemicals. Furthermore, all produce is meticulously washed and inspected before being shipped. That's our promise to you.
 
 - Nutrient rich - dark colored greens/veggies
-  -----Studies by nutritionists have shown that the richness of a fruit or vegetable's color is directly linked to the amount of nutrients they contain. GMO-laden produce from supermarkets are often severely lacking in the darker, richer colors, denoting an equally severe lack of nutritional value. We pledge to never use GMO in any of our products and utilize the finest of fertilizers to produce colorful, nutrient-rich produce that tastes better and makes you feel better.
+  -----Studies by nutritionists have shown that the richness of a fruit or vegetable's color is directly linked to the amount of nutrients they contain. GMO-laden produce from supermarkets are often severely lacking in the darker, richer colors, denoting an equally severe lack of nutritional value. We pledge to never use GMO in any of our produce and utilize the finest of fertilizers to produce colorful, nutrient-rich produce that tastes better and makes you feel better.
 
 - Packaging uses fully recycled/environmentally sustainable materials
 - 100% Vegan and cruelty free
@@ -36,7 +37,7 @@ Forbes
 
 CUSTOMER TESTIMONIALS
 
--Jeanne: The taste and purity of their produce is second to none. I will never again visit the supermarket for my fruits and veggies!
+-Jeanne: The taste and purity of their produce is second to none. I will never again visit the store for my fruits and veggies!
 
 -Alfred: Finding quality, chemical-free organic ingredients is a constant concern of mine, but Evergreen Organics gave me the peace of mind I've been searching for.
 
@@ -49,6 +50,8 @@ FOR BUSINESS
 - Give your customers the quality they deserve! Evergreen Organics partners with businesses large and small, from the mom and pop restaurant down the road to the downtown upscale café. Our dedicated service team will find a customized solution for you to reach your business goals.
 
 - (CTA) "Partner with us"
+
+CALL TO ACTION
 
 CONTACT INFORMATION
 Address: 975 108th Street, Denver, CO 80014
