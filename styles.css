@@ -1,3 +1,8 @@
 .section-hero {
-  background-image: url(hero-img.jpg);
+  background-image: url("pics-master/hero-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  color: #fff;
 }
