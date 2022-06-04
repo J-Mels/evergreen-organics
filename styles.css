@@ -1,3 +1,33 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.8rem;
+  background-color: #e6f2e6;
+  height: 5.6rem;
+}
+
+.logo {
+  display: block;
+  width: auto;
+  height: 3.6rem;
+}
+
+.btn-nav {
+  font-size: 3.2rem;
+  border: none;
+  background: none;
+  color: #003300;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .section-hero {
   background-image: linear-gradient(
       to bottom,
