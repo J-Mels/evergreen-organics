@@ -30,7 +30,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.empty-space {
+.text-empty-space {
   display: block;
 }
 
@@ -49,8 +49,6 @@ body {
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 10px;
-  background-image: linear-gradient(to right bottom, #e6f2e6, #99cc99);
-  color: #000d00;
   justify-self: center;
   width: fit-content;
 }
