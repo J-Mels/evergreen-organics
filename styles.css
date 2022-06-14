@@ -92,17 +92,19 @@
 
 .section-features {
   background-color: #e6f2e6;
-  padding: 6.4rem 0 0 0;
-
-  height: 200rem;
+  padding: 6.4rem 3.2rem;
+  row-gap: 3.2rem;
 }
 
 .feature-dropdown {
   max-width: 100%;
   overflow: hidden;
+  background-color: #cce6cc;
+  border-radius: 12px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.2);
 }
 
-.dropdown-click {
+.feature-dropdown .dropdown-click {
   display: none;
 }
 
@@ -110,18 +112,22 @@
   display: block;
 }
 
+.alternating-colors:nth-of-type(even) {
+  background-color: #b3d9b3;
+}
+
 .feature-label {
   display: flex;
   font-size: 2rem;
-  padding: 1.6rem 0;
-  border-bottom: 1px solid #000d00;
+  padding: 1.6rem 0.8rem;
+  /* border-bottom: 1px solid #80c080; */
   cursor: pointer;
   position: relative;
 }
 
 .arrow-icon {
   align-self: center;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
   margin-left: auto;
 }
 
