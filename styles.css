@@ -59,8 +59,8 @@
 }
 
 .hero-gallery {
-  column-gap: 0.8rem;
-  row-gap: 0.8rem;
+  column-gap: 1.6rem;
+  row-gap: 1.6rem;
 }
 
 .hero-gallery-pic {
@@ -78,6 +78,29 @@
   background-image: linear-gradient(to right bottom, #e6f2e6, #99cc99);
   color: #001a00;
 }
+/* //////////////////////////////////////////// */
+/* ///////////////FEATURED IN SECTION //////////*/
+/* //////////////////////////////////////////// */
+
+.section-featured-in {
+  padding-top: 6.4rem;
+  background-color: #e6f2e6;
+}
+
+.companies-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 1.6rem;
+  column-gap: 1.6rem;
+  align-items: center;
+}
+
+.company-logo {
+  display: block;
+  width: 100%;
+  filter: brightness(0) saturate(100%) invert(7%) sepia(53%) saturate(2162%) hue-rotate(84deg) brightness(95%) contrast(105%);
+}
+
 /* ////////////////////////////////////// */
 /* //////////FEATURES SECTION/////////// */
 /* ///////////////////////////////////// */

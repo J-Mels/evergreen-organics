@@ -30,10 +30,10 @@ FEATURES
   ----- In order to guarantee maximum taste, nutrition and freshness, we grow our produce in state-of-the-art facilities using cutting-edge advancements in agriculture. We utilize traditional farms, greenhouses, and hydroponic farms to ensure each variety of produce is nutrient rich and grown in an environmentally sustainable way.
 
 FEATURED IN:
-Prevention
 New York Times
 USA Today
 Forbes
+
 
 CUSTOMER TESTIMONIALS
 
