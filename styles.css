@@ -98,7 +98,16 @@
 .company-logo {
   display: block;
   width: 100%;
-  filter: brightness(0) saturate(100%) invert(7%) sepia(53%) saturate(2162%) hue-rotate(84deg) brightness(95%) contrast(105%);
+  filter: brightness(0) saturate(100%) invert(7%) sepia(53%) saturate(2162%)
+    hue-rotate(84deg) brightness(95%) contrast(105%);
+  justify-items: center;
+  align-items: center;
+}
+
+.company-logo-resize {
+  width: 80%;
+  justify-self: center;
+  align-self: center;
 }
 
 /* ////////////////////////////////////// */
@@ -108,7 +117,6 @@
 .section-features {
   background-color: #e6f2e6;
   padding: 6.4rem 3.2rem;
-  row-gap: 3.2rem;
   color: #001a00;
 }
 

@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Zilla Slab', serif;
+  font-family: "Zilla Slab", serif;
   line-height: 1;
   font-weight: 400;
   overflow-x: hidden;
@@ -33,6 +33,10 @@ body {
 .grid--3-cols {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+}
+
+.row-gap-small {
+  row-gap: 3.2rem;
 }
 
 .text-align--center {
