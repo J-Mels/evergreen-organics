@@ -175,3 +175,22 @@
 /* ////////////////////////////////////// */
 /* //////////TESTIMONIALS SECTION/////////// */
 /* ///////////////////////////////////// */
+.section-testimonials {
+  background-color: #e6f2e6;
+  color: #001a00;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.2rem;
+}
+
+.testimonial-img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.testimonial-name {
+  color: #576d57;
+}
