@@ -224,3 +224,34 @@
 .resize {
   object-position: right;
 }
+
+/* ////////////////////////////////////// */
+/* //////////BUSINESS SECTION/////////// */
+/* ///////////////////////////////////// */
+
+.section-business {
+  position: relative;
+  overflow: hidden;
+  padding: 6.4rem 0;
+  color: #e6f2e6;
+}
+
+.section-business::before {
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background: url(pics-master/chef-guy.jpg) no-repeat;
+  background-size: 100%;
+  z-index: -165;
+  transform: scaleX(-1);
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+.business-text {
+  padding: 0 3.2rem;
+  width: 100%;
+}

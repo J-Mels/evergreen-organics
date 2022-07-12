@@ -59,6 +59,13 @@ body {
 }
 
 .heading-secondary {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.1rem;
+}
+
+.heading-tertiary {
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.2;
