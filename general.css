@@ -39,6 +39,10 @@ body {
   row-gap: 3.2rem;
 }
 
+.row-gap-smaller {
+  row-gap: 0.8rem;
+}
+
 .text-align--center {
   text-align: center;
 }
