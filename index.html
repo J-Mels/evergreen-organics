@@ -75,7 +75,7 @@
               alt="leafy green vegetable in a basket"
             />
           </div>
-          <a class="btn hero-cta">Get Started</a>
+          <a class="btn justify-center">Get Started</a>
         </div>
       </section>
 
@@ -360,38 +360,52 @@
           receive a $10 credit towards their first qualifying purchase!
         </p>
         <div class="cta-card">
+          <div class="cta-img"></div>
           <form class="cta-form" action="#">
-            <label for="full-name">Full Name</label>
+            <label for="full-name" class="margin-bottom-tiny">Full Name</label>
             <input
+              class="margin-bottom-small"
               id="full-name"
               type="text"
               placeholder="John Smith"
               name="full-name"
               required
             />
-            <label for="email">Email Address</label>
+            <label for="email" class="margin-bottom-tiny">Email Address</label>
             <input
+              class="margin-bottom-small"
               id="email"
               type="email"
               placeholder="me@example.com"
               name="email"
               required
             />
-            <label for="special-offers"
-              >I would like to receive emails about Evergreen's sales and
-              special offers</label
-            >
-            <input id="special-offers" type="checkbox" name="special-offers" />
-            <label for="rewards"
-              >I am interested in enrolling in the Evergreen Rewards
-              Program</label
-            >
-            <input id="rewards" type="checkbox" name="rewards" />
-            <label for="business"
-              >I am interested in partnering with Evergreen for my
-              business</label
-            >
-            <input id="business" type="checkbox" name="business" />
+            <div class="checkbox-line">
+              <input
+                id="special-offers"
+                type="checkbox"
+                name="special-offers"
+              />
+              <label for="special-offers"
+                >I would like to receive emails about Evergreen's sales and
+                special offers.</label
+              >
+            </div>
+            <div class="checkbox-line">
+              <input id="rewards" type="checkbox" name="rewards" />
+              <label for="rewards"
+                >I am interested in enrolling in the Evergreen Rewards
+                Program.</label
+              >
+            </div>
+            <div class="checkbox-line">
+              <input id="business" type="checkbox" name="business" />
+              <label for="business"
+                >I am interested in partnering with Evergreen for my
+                business.</label
+              >
+            </div>
+            <button class="btn btn-cta">Sign Up Now</button>
           </form>
         </div>
       </section>

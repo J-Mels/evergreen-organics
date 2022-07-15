@@ -51,6 +51,18 @@ body {
   display: block;
 }
 
+.margin-bottom-small {
+  margin-bottom: 1.6rem;
+}
+
+.margin-bottom-tiny {
+  margin-bottom: 0.8rem;
+}
+
+.justify-center {
+  justify-self: center;
+}
+
 .heading-primary {
   font-size: 3.2rem;
   font-weight: 700;
@@ -94,4 +106,6 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 10px;
   width: fit-content;
+  background-image: linear-gradient(to right bottom, #e6f2e6, #99cc99);
+  color: #001a00;
 }

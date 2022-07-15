@@ -255,8 +255,6 @@
 }
 
 .business-cta {
-  background-image: linear-gradient(to right bottom, #e6f2e6, #99cc99);
-  color: #001a00;
   padding-top: 1.6rem;
 }
 
@@ -291,8 +289,70 @@
   display: flex;
   flex-direction: column;
   row-gap: 3.2rem;
+  padding-bottom: 6.4rem;
 }
 
 .heading-cta {
   padding-top: 6.4rem;
+}
+
+.cta-card {
+  display: grid;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2.4rem 3.6rem rgba(0, 0, 0, 0.3);
+}
+
+.cta-form {
+  display: block;
+  color: #e6f2e6;
+  background-color: #001a00;
+  font-size: 1.2rem;
+  padding: 3.2rem 1.6rem 1.6rem 1.6rem;
+}
+
+.cta-form label {
+  display: block;
+}
+
+.cta-form input {
+  font-family: inherit;
+  color: #001a00;
+  border: none;
+  border-radius: 3px;
+  background-color: #e6f2e6;
+}
+
+.cta-form input:not([type="checkbox"]) {
+  width: 100%;
+}
+
+.cta-form input::placeholder {
+  color: #576d57;
+}
+
+.checkbox-line {
+  display: flex;
+  align-items: center;
+  column-gap: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.cta-img {
+  height: 16rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 26, 0, 0.3),
+      rgba(0, 26, 0, 0.6)
+    ),
+    url(pics-master/cilantro-knife.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.btn-cta {
+  font-size: 1.6rem;
+  width: 100%;
+  border: none;
+  margin-top: 3.2rem;
 }
