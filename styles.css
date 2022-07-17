@@ -355,3 +355,31 @@
   border: none;
   margin-top: 3.2rem;
 }
+
+/* ////////////////////////////////////// */
+/* //////////FOOTER SECTION/////////// */
+/* ///////////////////////////////////// */
+
+.section-footer {
+  background-color: #e6f2e6;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.nav-column {
+  display: flex;
+  flex-direction: column;
+  grid-column: span 2;
+}
+
+.logo-column {
+  grid-column: span 3;
+}
+
+.contact-column {
+  grid-column: span 3;
+}
+
+.social-links {
+  display: flex;
+}
