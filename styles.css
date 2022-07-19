@@ -362,24 +362,94 @@
 
 .section-footer {
   background-color: #e6f2e6;
+  color: #001a00;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
+  row-gap: 4.8rem;
+  column-gap: 1.6rem;
+  padding-top: 6.4rem;
+  padding-bottom: 6.4rem;
+  border-top: solid 1px #c2d3c2;
 }
 
 .nav-column {
   display: flex;
   flex-direction: column;
   grid-column: span 2;
+  row-gap: 2.4rem;
+}
+
+.footer-heading {
+  font-size: 1.6rem;
+}
+
+.footer-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.footer-item {
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #374437;
+}
+
+.footer-link:visited {
+  color: #374437;
 }
 
 .logo-column {
   grid-column: span 3;
+  display: flex;
+  flex-direction: column;
 }
 
-.contact-column {
-  grid-column: span 3;
+.footer-logo {
+  display: block;
+  margin-bottom: 1.6rem;
 }
 
 .social-links {
   display: flex;
+  gap: 1.2rem;
+  font-size: 2rem;
+  list-style-type: none;
+  margin-bottom: auto;
+}
+
+.social-link,
+.social-link:visited {
+  color: #2c5807;
+}
+
+.copyright {
+  display: block;
+  font-size: 1rem;
+  justify-self: flex-end;
+}
+
+.contact-column {
+  grid-column: span 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  font-style: normal;
+  color: #374437;
+}
+
+.address {
+  font-size: 1.4rem;
+  letter-spacing: 0.05rem;
 }
