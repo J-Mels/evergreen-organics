@@ -67,6 +67,18 @@ button {
   justify-self: center;
 }
 
+.link-fix-light:link,
+.link-fix-light:visited {
+  text-decoration: none;
+  color: #001a00;
+}
+
+.link-fix-dark:link,
+.link-fix-dark:visited {
+  text-decoration: none;
+  color: #e6f2e6;
+}
+
 .heading-primary {
   font-size: 3.2rem;
   font-weight: 700;

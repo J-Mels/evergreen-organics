@@ -42,12 +42,20 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li class="main-nav-item heading-tertiary"><a>Sign in</a></li>
-          <li class="main-nav-item heading-tertiary"><a>Features</a></li>
-          <li class="main-nav-item heading-tertiary"><a>Testimonials</a></li>
-          <li class="main-nav-item heading-tertiary"><a>For Business</a></li>
+          <li class="main-nav-item heading-tertiary">
+            <a class="link-fix-light" href="#">Sign in</a>
+          </li>
+          <li class="main-nav-item heading-tertiary">
+            <a class="link-fix-light" href="#features">Features</a>
+          </li>
+          <li class="main-nav-item heading-tertiary">
+            <a class="link-fix-light" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="main-nav-item heading-tertiary">
+            <a class="link-fix-light" href="#business">For Business</a>
+          </li>
           <li class="main-nav-item heading-tertiary nav-cta">
-            <a>Sign Up for Free!</a>
+            <a class="link-fix-dark" href="#cta">Sign Up for Free!</a>
           </li>
         </ul>
       </nav>
@@ -71,7 +79,8 @@
             superior taste without GMO and toxic pesticides. Ditch the
             supermarket and upgrade to Evergreen today!
           </p>
-          <div class="grid--2-cols hero-gallery">
+          <a href="#cta" class="btn justify-center">Get Started</a>
+          <div class="grid--3-cols hero-gallery">
             <img
               class="hero-gallery-pic"
               src="pics-master/green-tomatoes.jpg"
@@ -84,16 +93,40 @@
             />
             <img
               class="hero-gallery-pic"
+              src="pics-master/green-dish.jpg"
+              alt="Dish of cooked vegetables"
+            />
+            <img
+              class="hero-gallery-pic"
               src="pics-master/walnuts.jpg"
               alt="basket of fresh walnuts"
+            />
+            <img
+              class="hero-gallery-pic"
+              src="pics-master/water-greens.jpg"
+              alt="crops being watered through a spigot"
+            />
+            <img
+              class="hero-gallery-pic"
+              src="pics-master/avocados.jpg"
+              alt="a pile of avocados"
             />
             <img
               class="hero-gallery-pic"
               src="pics-master/green-basket.jpg"
               alt="leafy green vegetable in a basket"
             />
+            <img
+              class="hero-gallery-pic"
+              src="pics-master/avocado-salad.jpg"
+              alt="a delicious avocado salad"
+            />
+            <img
+              class="hero-gallery-pic"
+              src="pics-master/tropical-fruits.jpg"
+              alt="an arrangement of tropical fruits"
+            />
           </div>
-          <a class="btn justify-center">Get Started</a>
         </div>
       </section>
 
@@ -116,7 +149,10 @@
         </div>
       </section>
 
-      <section class="grid container section-features row-gap-small">
+      <section
+        class="grid container section-features row-gap-small"
+        id="features"
+      >
         <h2 class="heading-primary">Why Choose Evergreen?</h2>
         <div class="feature-dropdown">
           <div class="alternating-colors">
@@ -278,7 +314,11 @@
           </div>
         </div>
       </section>
-      <section class="grid section-testimonials row-gap-small">
+
+      <section
+        class="grid section-testimonials row-gap-small"
+        id="testimonials"
+      >
         <div class="container grid row-gap-small">
           <figure class="testimonial">
             <img
@@ -351,7 +391,7 @@
         </div>
       </section>
       <!-- <div class="section-business-padding"></div> -->
-      <section class="section-business">
+      <section class="section-business" id="business">
         <div class="business-text">
           <h2 class="heading-primary heading-business">
             Evergreen for Business
@@ -365,9 +405,10 @@
           </p>
         </div>
         <div class="business-img">
-          <a class="btn business-cta">Sign Up</a>
+          <a href="#cta" class="btn business-cta">Sign Up</a>
         </div>
       </section>
+
       <section class="container section-cta">
         <h2 class="heading-secondary heading-cta">
           Switch to Evergreen Today!
@@ -377,7 +418,7 @@
           list of produce and get access to our special offers. New users will
           receive a $10 credit towards their first qualifying purchase!
         </p>
-        <div class="cta-card">
+        <div class="cta-card" id="cta">
           <div class="cta-img"></div>
           <form class="cta-form" action="#">
             <label for="full-name" class="margin-bottom-tiny">Full Name</label>
