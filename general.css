@@ -71,13 +71,25 @@ button {
 .link-fix-light:visited {
   text-decoration: none;
   color: #001a00;
+  transition: all 0.25s;
+}
+
+.link-fix-light:active,
+.link-fix-light:hover {
+  color: #004d00;
 }
 
 .link-fix-dark:link,
 .link-fix-dark:visited {
   text-decoration: none;
   color: #e6f2e6;
+  /* transition: all 0.25s; */
 }
+
+/* .link-fix-dark:active,
+.link-fix-dark:hover {
+  color: #b3d9b3;
+} */
 
 .heading-primary {
   font-size: 3.2rem;
@@ -124,4 +136,14 @@ button {
   width: fit-content;
   background-image: linear-gradient(to right bottom, #e6f2e6, #99cc99);
   color: #001a00;
+}
+
+.btn:hover,
+.btn:active {
+  background-image: linear-gradient(to right bottom, #ffffff, #b3d9b3);
+  color: #002600;
+}
+
+*:focus {
+  outline: none;
 }
