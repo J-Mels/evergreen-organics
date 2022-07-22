@@ -30,7 +30,7 @@
   width: 100%;
   height: 100vh;
   top: 0%;
-  left: 0;
+  left: 0%;
   transform: translateX(100%);
   transition: all 0.35s ease-in;
 
@@ -207,18 +207,25 @@
   background-color: #cce6cc;
   border-radius: 12px;
   box-shadow: 0 2.4rem 3.6rem rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in;
 }
 
 .feature-dropdown .dropdown-click {
   display: none;
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  transition: all 0.3s ease-in;
 }
 
 .dropdown-click:checked ~ .feature-content {
+  /* opacity: 1; */
   display: flex;
+  visibility: visible;
   flex-direction: column;
   row-gap: 1.6rem;
   justify-content: center;
   align-items: center;
+  transition: all 0.3s ease-in;
 }
 
 .alternating-colors:nth-of-type(even) {
@@ -242,6 +249,8 @@
 
 .feature-content {
   padding: 1.6rem 0.8rem;
+  visibility: hidden;
+  /* opacity: 0; */
   display: none;
 }
 
@@ -388,19 +397,26 @@
   color: #e6f2e6;
   background-color: #001a00;
   font-size: 1.2rem;
-  padding: 3.2rem 1.6rem 1.6rem 1.6rem;
+  padding: 3.2rem 2.4rem 2.4rem 2.4rem;
 }
 
 .cta-form label {
   display: block;
+  font-size: 1.6rem;
 }
 
 .cta-form input {
   font-family: inherit;
   color: #001a00;
+  padding: 0.8rem;
   border: none;
-  border-radius: 3px;
+  border-radius: 8px;
   background-color: #e6f2e6;
+  font-size: 1.6rem;
+}
+
+.cta-form input[type="email"] {
+  margin-bottom: 3.2rem;
 }
 
 .cta-form input:not([type="checkbox"]) {
@@ -418,8 +434,26 @@
   margin-bottom: 1.6rem;
 }
 
+.checkbox-line input {
+  appearance: none;
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 50%;
+  background-color: #e6f2e6;
+  position: relative;
+}
+
+.checkbox-line input:checked::after {
+  content: "\2714";
+  font-size: 2.2rem;
+  position: absolute;
+  top: -0.3rem;
+  left: 0.1rem;
+  color: #003300;
+}
+
 .cta-img {
-  height: 16rem;
+  height: 18rem;
   background-image: linear-gradient(
       to bottom,
       rgba(0, 26, 0, 0.3),
