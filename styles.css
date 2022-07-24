@@ -186,7 +186,7 @@
 }
 
 .company-logo-resize {
-  width: 80%;
+  width: 70%;
   justify-self: center;
   align-self: center;
 }
@@ -269,7 +269,7 @@
 .section-testimonials {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 3.2rem;
+  gap: 6.4rem;
   background-color: #e6f2e6;
   color: #001a00;
   padding-bottom: 0.8rem;
@@ -379,6 +379,7 @@
   flex-direction: column;
   row-gap: 3.2rem;
   padding-bottom: 6.4rem;
+  color: #001a00;
 }
 
 .heading-cta {
