@@ -100,7 +100,7 @@
 
 .nav-menu-icon {
   font-size: 3.2rem;
-  color: #003300;
+  color: #001a00;
 }
 
 .nav-menu-icon[name="close-outline"] {
@@ -186,7 +186,7 @@
 }
 
 .company-logo-resize {
-  width: 70%;
+  width: 60%;
   justify-self: center;
   align-self: center;
 }
@@ -197,7 +197,7 @@
 
 .section-features {
   background-color: #e6f2e6;
-  padding: 6.4rem 3.2rem;
+  padding: 6.4rem 0;
   color: #001a00;
 }
 
@@ -207,14 +207,12 @@
   background-color: #cce6cc;
   border-radius: 12px;
   box-shadow: 0 2.4rem 3.6rem rgba(0, 0, 0, 0.3);
-  transition: all 0.3s ease-in;
 }
 
 .feature-dropdown .dropdown-click {
   display: none;
   /* visibility: hidden; */
   /* opacity: 0; */
-  transition: all 0.3s ease-in;
 }
 
 .dropdown-click:checked ~ .feature-content {
@@ -225,7 +223,6 @@
   row-gap: 1.6rem;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease-in;
 }
 
 .alternating-colors:nth-of-type(even) {
@@ -234,8 +231,7 @@
 
 .feature-label {
   display: flex;
-  font-size: 2rem;
-  padding: 1.6rem 0.8rem;
+  padding: 1.6rem;
   /* border-bottom: 1px solid #80c080; */
   cursor: pointer;
   position: relative;
@@ -248,7 +244,7 @@
 }
 
 .feature-content {
-  padding: 1.6rem 0.8rem;
+  padding: 1.6rem;
   visibility: hidden;
   /* opacity: 0; */
   display: none;
@@ -256,9 +252,9 @@
 
 .feature-pic {
   display: inline-block;
-  width: 80%;
+  width: 100%;
   height: auto;
-  margin: 1.6rem 0;
+  margin: 0 1.6rem;
   border-radius: 10px;
 }
 
@@ -375,11 +371,14 @@
 
 .section-cta {
   background-color: #e6f2e6;
+  padding-bottom: 6.4rem;
+  color: #001a00;
+}
+
+.cta-flex {
   display: flex;
   flex-direction: column;
   row-gap: 3.2rem;
-  padding-bottom: 6.4rem;
-  color: #001a00;
 }
 
 .heading-cta {
@@ -389,6 +388,7 @@
 .cta-card {
   display: grid;
   border-radius: 12px;
+  margin-top: 1.6rem;
   overflow: hidden;
   box-shadow: 0 2.4rem 3.6rem rgba(0, 0, 0, 0.3);
 }
@@ -478,13 +478,15 @@
 .section-footer {
   background-color: #e6f2e6;
   color: #001a00;
+  padding: 6.4rem 0;
+  border-top: solid 1px #c2d3c2;
+}
+
+.footer-grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   row-gap: 4.8rem;
-  column-gap: 1.6rem;
-  padding-top: 6.4rem;
-  padding-bottom: 6.4rem;
-  border-top: solid 1px #c2d3c2;
+  column-gap: 3.2rem;
 }
 
 .nav-column {
@@ -492,10 +494,6 @@
   flex-direction: column;
   grid-column: span 2;
   row-gap: 2.4rem;
-}
-
-.footer-heading {
-  font-size: 1.6rem;
 }
 
 .footer-list {
