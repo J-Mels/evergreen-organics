@@ -217,12 +217,11 @@
 
 .dropdown-click:checked ~ .feature-content {
   /* opacity: 1; */
-  display: flex;
+  display: grid;
   visibility: visible;
-  flex-direction: column;
   row-gap: 1.6rem;
-  justify-content: center;
-  align-items: center;
+  justify-items: start;
+  align-items: flex-start;
 }
 
 .alternating-colors:nth-of-type(even) {
@@ -254,7 +253,6 @@
   display: inline-block;
   width: 100%;
   height: auto;
-  margin: 0 1.6rem;
   border-radius: 10px;
 }
 
