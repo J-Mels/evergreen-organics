@@ -369,7 +369,7 @@
 
 .section-cta {
   background-color: #e6f2e6;
-  padding-bottom: 6.4rem;
+  padding: 6.4rem 0;
   color: #001a00;
 }
 
@@ -377,10 +377,6 @@
   display: flex;
   flex-direction: column;
   row-gap: 3.2rem;
-}
-
-.heading-cta {
-  padding-top: 6.4rem;
 }
 
 .cta-card {
@@ -461,6 +457,10 @@
     url(pics-master/cilantro-knife.jpg);
   background-size: cover;
   background-position: center;
+}
+
+.cta-img-2 {
+  display: none;
 }
 
 .btn-cta {

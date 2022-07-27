@@ -114,15 +114,11 @@
   }
 
   .section-cta {
-    padding-bottom: 8rem;
+    padding: 8rem 0;
   }
 
   .cta-flex {
     row-gap: 4.8rem;
-  }
-
-  .heading-cta {
-    padding-top: 8rem;
   }
 
   .cta-form {
@@ -282,5 +278,91 @@
 
   .gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .section-business {
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(0, 26, 0);
+  }
+
+  .business-text {
+    width: 50%;
+    padding: 10.4rem 0rem 4.8rem 4.8rem;
+    margin-bottom: 17rem;
+    position: relative;
+  }
+
+  .text-business {
+    margin-bottom: 0;
+  }
+
+  .business-img {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 26, 0, 1),
+        rgba(0, 26, 0, 0.45),
+        rgba(0, 26, 0, 0.3),
+        rgba(0, 26, 0, 0),
+        rgba(0, 26, 0, 0)
+      ),
+      linear-gradient(
+        to right bottom,
+        rgba(0, 26, 0, 0.8),
+        rgba(0, 26, 0, 0.5),
+        rgba(0, 26, 0, 0.3)
+      ),
+      url(pics-master/chef-guy.jpg);
+    width: 50%;
+    padding: 0;
+    background-position: top right 25%;
+  }
+
+  .business-cta {
+    margin-top: 0;
+    position: absolute;
+    bottom: 10.4rem;
+    left: 4.8rem;
+  }
+
+  .section-cta {
+    padding: 10.4rem 0;
+  }
+
+  .cta-flex {
+    row-gap: 4.8rem;
+  }
+
+  .cta-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta-img {
+    height: 50%;
+  }
+
+  .cta-img-2 {
+    display: block;
+    height: 50%;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 26, 0, 0.3),
+        rgba(0, 26, 0, 0.6)
+      ),
+      url(pics-master/blue-apron-chef.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cta-img-container {
+    order: 2;
+  }
+
+  .cta-form {
+    order: 1;
+  }
+
+  .section-footer {
+    padding: 10.4rem 0;
   }
 }
