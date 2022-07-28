@@ -219,8 +219,33 @@
     margin-top: -4.8rem;
   }
 
+  .cta-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .cta-img-container {
+    order: 2;
+  }
+
   .cta-img {
-    height: 28.8rem;
+    height: 50%;
+  }
+
+  .cta-img-2 {
+    display: block;
+    height: 50%;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 26, 0, 0.3),
+        rgba(0, 26, 0, 0.6)
+      ),
+      url(pics-master/blue-apron-chef.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .cta-form {
+    order: 1;
   }
 }
 
@@ -333,36 +358,72 @@
     row-gap: 4.8rem;
   }
 
-  .cta-card {
+  .section-footer {
+    padding: 10.4rem 0;
+  }
+}
+
+@media (min-width: 70rem) {
+  .container {
+    padding: 0 6.4rem;
+  }
+
+  .hero-grid {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .cta-img {
-    height: 50%;
+  .headline {
+    text-align: left;
   }
 
-  .cta-img-2 {
-    display: block;
-    height: 50%;
-    background-image: linear-gradient(
-        to bottom,
-        rgba(0, 26, 0, 0.3),
-        rgba(0, 26, 0, 0.6)
-      ),
-      url(pics-master/blue-apron-chef.jpg);
-    background-size: cover;
-    background-position: center;
+  .justify-center {
+    justify-self: left;
   }
 
-  .cta-img-container {
+  .business-text {
+    padding: 10.4rem 0rem 4.8rem 6.4rem;
+  }
+
+  .business-cta {
+    left: 6.4rem;
+  }
+
+  .hero-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .order-1 {
+    order: 1;
+    grid-column: span 3;
+  }
+  .order-2 {
+    grid-column: span 1.5;
     order: 2;
   }
-
-  .cta-form {
-    order: 1;
+  .order-3 {
+    order: 3;
+    grid-column: span 1.5;
   }
-
-  .section-footer {
-    padding: 10.4rem 0;
+  .order-4 {
+    order: 4;
+  }
+  .order-5 {
+    order: 5;
+  }
+  .order-6 {
+    order: 6;
+  }
+  .order-7 {
+    order: 7;
+    grid-column: span 1.5;
+  }
+  .order-8 {
+    order: 8;
+    grid-column: span 1.5;
+  }
+  .order-9 {
+    order: 9;
+    grid-column: span 3;
   }
 }
