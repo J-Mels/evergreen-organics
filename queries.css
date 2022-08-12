@@ -505,12 +505,36 @@
   .section-testimonials {
     grid-template-columns: 3fr 2fr;
   }
+}
 
-  /* .hero-gallery-pic:nth-of-type(-n + 4) {
-    grid-column: auto;
+@media (min-width: 82em) /*1300px*/ {
+  .hero-grid {
+    max-width: 1300px;
   }
 
-  .hero-gallery-pic:nth-of-type(n + 5) {
-    grid-column: auto;
+  .section-featured-in {
+    max-width: 1300px;
+    margin: auto;
+  }
+
+  .section-features {
+    max-width: 1300px;
+    margin: auto;
+  }
+
+  .section-testimonials {
+    max-width: 1300px;
+    margin: auto;
+  }
+  /* 
+  .section-business {
+    justify-content: center;
   } */
+
+  .business-text {
+    max-width: 427px;
+  }
+
+  .business-img {
+  }
 }
