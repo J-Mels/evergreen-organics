@@ -6,6 +6,7 @@
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -133,6 +134,7 @@ button {
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 10px;
+  height: fit-content;
   width: fit-content;
   background-image: linear-gradient(to right bottom, #e6f2e6, #99cc99);
   color: #001a00;
