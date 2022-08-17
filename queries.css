@@ -134,7 +134,7 @@
   }
 
   .section-footer {
-    padding: 8rem 0 0 0;
+    padding: 8rem 0;
   }
 
   .footer-item {
@@ -152,10 +152,6 @@
 
   .address {
     font-size: 1.8rem;
-  }
-
-  .disclaimer {
-    margin-top: 8rem;
   }
 }
 
@@ -398,11 +394,7 @@
   }
 
   .section-footer {
-    padding: 10.4rem 0 0 0;
-  }
-
-  .disclaimer {
-    margin-top: 10.4rem;
+    padding: 10.4rem 0;
   }
 }
 
