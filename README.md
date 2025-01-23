@@ -2,7 +2,7 @@
 
 This repository contains the source code for a single-page demo website designed for a fictional company. The project showcases modern frontend development practices and demonstrates a clean, responsive, and accessible web design. The goal is to provide a professional and visually appealing demonstration of web design and development skills.
 
-View the live website here: [(https://whimsical-shortbread-3d3a9b.netlify.app/)]
+View the live website here: https://whimsical-shortbread-3d3a9b.netlify.app/
 
 # Project Features
 
