@@ -63,7 +63,7 @@ A comprehensive footer with links to navigation, social media, and contact infor
 
 Includes a copyright notice and legal links.
 
-Key Features and Best Practices
+# Key Features and Best Practices
 
 Consistent UI Design: A clearly defined spacing and font-size system implemented via CSS ensures visual consistency across the page.
 
