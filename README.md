@@ -4,7 +4,7 @@ This repository contains the source code for a single-page demo website designed
 
 # Project Features
 
-### Logo/Navigation
+## Logo/Navigation
 
 A company logo displayed prominently in the top-left corner of the page.
 
@@ -13,21 +13,21 @@ A fully functional navigation menu with links to different sections of the page.
 Smooth scrolling implemented for navigation links to enhance user experience.
 
 
-### Hero Section
+## Hero Section
 
 A bold and eye-catching hero section featuring a headline, subheadline, and a primary call-to-action button.
 
 Designed to immediately capture the user’s attention and convey the company’s core message.
 
 
-### "Featured In" Section
+## "Featured In" Section
 
 A section displaying logos or names of popular publications or organizations that have featured the company.
 
 Adds credibility and builds trust with visitors.
 
 
-### Features Section
+## Features Section
 
 Highlight key offerings or unique aspects of the company.
 
@@ -36,28 +36,28 @@ Organized into a dropdown layout for clear readability and visual appeal.
 Accompanied by relevant icons or images to enhance understanding.
 
 
-### Testimonials Section
+## Testimonials Section
 
 Showcases customer reviews or feedback.
 
 Accompanied by an image gallery.
 
 
-### For Business Section
+## For Business Section
 
 Tailored messaging for potential business clients.
 
 Includes a value proposition and a secondary call-to-action button.
 
 
-### Call to Action / Signup Form
+## Call to Action / Signup Form
 
 Encourages visitors to take the desired action, such as signing up for a newsletter or service.
 
 A simple and clean form layout optimized for accessibility and usability.
 
 
-### Footer
+## Footer
 
 A comprehensive footer with links to navigation, social media, and contact information.
 
